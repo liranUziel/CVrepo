@@ -3,9 +3,11 @@ class Project{
     #version
     #tags
     #date
-    constructor(_name,_version,_date = undefined,_optional = undefined){
+    #gitURL
+    constructor(_name,_version,_date = undefined,_optional = undefined,_gitURL = undefined){
         this.#name = _name;
         this.#version = _version;
+        this.#gitURL = _gitURL;//new 
         this.#tags = [];
         this.#date = _date || getCurrentDate();
         this.optional =_optional;
