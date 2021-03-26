@@ -1,0 +1,26 @@
+/*.container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}*/
+
+.info{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.profile-image{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+}
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px lightgray solid;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
